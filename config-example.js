@@ -11,16 +11,16 @@ var CONFIG = (function() {
   var server = {
       'WWW_PORT': 8080
     , 'SECRET_KEY': 'CHANGEME!'
-    , 'DB_PORT':  27017
-    , 'DB_HOST': 'localhost'
+    , 'DB_PORT':  61278
+    , 'DB_HOST': 'ds061278.mongolab.com'
     , 'DB_NAME': 'ripple'
 
     // Database authentication requires mongo to be started with a special configuration option -
     // see http://docs.mongodb.org/v2.2/tutorial/control-access-to-mongodb-with-authentication/
     // for details.  If DB_AUTH_NAME and DB_AUTH_PASS are set, the user and password MUST have
     // read+write access to the database specified in DB_NAME.
-    // , DB_AUTH_NAME: "ripple"
-    // , DB_AUTH_PASS: "PASSWORD"
+     , DB_AUTH_NAME: "jiachen"
+     , DB_AUTH_PASS: "jjjjjj88"
 
     // Log level for the logger - in production, this should be "warn" to avoid unnecessary debug
     // Other settings, from least to most verbosity (note that you must use the numeric value):
@@ -69,19 +69,20 @@ var CONFIG = (function() {
    */
   var smtp = {
     // Require to send email
-    //  'HOST': "smtp.gmail.com"
-    // , 'USER': "username"
-    // , 'PASSWORD': "password"
+      'HOST': "smtp.126.com"
+     , 'USER': "pgyhpgyh"
+     , 'PASSWORD': "hhhhhh88"
     
     // Optional but recommended
-    // , 'SSL': true
-    // , 'SENDER': 'Ripple <example@gmail.com>'
+     , 'SSL': true
+     , 'SENDER': 'ttt <pgyh@hotmail.com>'
     
     // Optional smtp configurations
     //  documentation at https://github.com/eleith/emailjs
-    //, 'PORT':
-    //, 'DOMAIN':
+    , 'PORT': "25"
+    , 'DOMAIN': "126.com"
   }
+
 
   /**
    * Constants are ONLY readable through their methods
