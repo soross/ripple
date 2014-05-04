@@ -11,15 +11,15 @@ var CONFIG = (function() {
   var server = {
       'WWW_PORT': 8080
     , 'SECRET_KEY': 'CHANGEME!'
-    , 'DB_PORT':  61278
-    , 'DB_HOST': 'ds061278.mongolab.com'
+    , 'DB_PORT':  47207
+    , 'DB_HOST': 'ds047207.mongolab.com'
     , 'DB_NAME': 'ripple'
 
     // Database authentication requires mongo to be started with a special configuration option -
     // see http://docs.mongodb.org/v2.2/tutorial/control-access-to-mongodb-with-authentication/
     // for details.  If DB_AUTH_NAME and DB_AUTH_PASS are set, the user and password MUST have
     // read+write access to the database specified in DB_NAME.
-     , DB_AUTH_NAME: "jiachen"
+     , DB_AUTH_NAME: "jiachen0"
      , DB_AUTH_PASS: "jjjjjj88"
 
     // Log level for the logger - in production, this should be "warn" to avoid unnecessary debug
